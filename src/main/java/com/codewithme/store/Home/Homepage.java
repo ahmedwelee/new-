@@ -14,5 +14,10 @@ public class Homepage {
     public String home() {
         return "goodbye";
     }
+    
+    @RequestMapping("/welcome")
+    public String welcome() {
+        return "welcome to my store";
+    }
 
 }
